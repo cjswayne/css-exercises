@@ -1,0 +1,9 @@
+.font-size{
+    font-size: 28px;
+    font-style: "Helvetica", "Times New Roman", "Sans Serif";
+}
+.b1{
+    background-color: black;
+    color: white;
+    border-width: 2.5px;
+}
