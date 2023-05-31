@@ -1,9 +1,17 @@
 .font-size{
     font-size: 28px;
     font-style: "Helvetica", "Times New Roman", "Sans Serif";
+    border-color: lightgray;
+    border-width: 2.5px;
 }
 .b1{
     background-color: black;
     color: white;
-    border-width: 2.5px;
+    
+}
+
+.b2{
+    background-color: yellow;
+    color: black;
+
 }
