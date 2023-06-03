@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -28,14 +31,6 @@ input {
 
 ul{
   list-style-type: none;
-  
-
-
-    /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-   
-  
 }
 
 a{
@@ -60,4 +55,17 @@ a{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+button{
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  background-color: #eee;
 }
