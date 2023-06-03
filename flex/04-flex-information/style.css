@@ -8,9 +8,33 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  
 }
+
+
+.info{
+  display: flex;
+
+}
+.text{
+  text-align: center;
+}
+.iblock{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
