@@ -20,18 +20,20 @@ img {
 }
 
 
-.info{
+.container{
   display: flex;
-
+  justify-content: center;
+  gap:52px;
 }
 .text{
   text-align: center;
 }
 .iblock{
   display: flex;
-  flex:2;
+  flex:1;
   flex-direction: column;
   justify-content: center;
+  max-width: 200px;
 }
 
 
