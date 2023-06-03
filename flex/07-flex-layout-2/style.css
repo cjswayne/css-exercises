@@ -68,6 +68,25 @@ a{
   text-decoration: none;
   color:white;
   display: flex;
+  font-size: 24px;
 
   padding-bottom: 16px;
+}
+.card{
+  padding: 32px;
+  width: 350px;
+  height: 350px;
+  margin: 16px;
+}
+
+.inner_content{
+  padding:32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
