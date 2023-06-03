@@ -15,8 +15,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
 
-  flex-direction: row;
   
 }
 
@@ -28,41 +28,43 @@ body {
   width: 48px;
   height: 48px;  
   margin-right:4px;
-  flex-shrink: 0;
-  align-self: center;
+
+
  
 }
 
 .logo {
-  display: flex;
+  
+
 
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  flex:1;
+
   margin: 8px;
   align-self: start;
   width:0;
+  flex:1;
 
   
 }
 
 button {
-  display: flex;
+
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  flex:1;
+
   margin: 8px;
-  align-self: center;
+ 
  
 }
 
 a {
-  display: flex;
+
 
   /* this removes the line under our links */
   text-decoration: none;
@@ -71,18 +73,19 @@ a {
 }
 
 ul {
+
   display: flex;
-  align-items: start;
+  margin: 0;
+  padding:0;
+  flex:1;
 
-  
-  
 
-
-  
   gap: 8px;
   list-style-type: none;
 }
-.links{
-  display:flex;
-  align-self: start;
+
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap:30px;
 }
